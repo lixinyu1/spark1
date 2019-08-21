@@ -9,7 +9,6 @@ import org.apache.spark.{SparkConf, SparkContext}
   */
 object txt2Parquet {
   def main(args: Array[String]): Unit = {
-    System.setProperty("hadoop.home.dir", "D:\\Huohu\\下载\\hadoop-common-2.2.0-bin-master")
     // 判断路径是否正确
     if(args.length != 2){
       println("目录参数不正确，退出程序")
