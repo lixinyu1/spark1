@@ -22,19 +22,18 @@
         </dependency>
 
 
-
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-graphx_2.10</artifactId>
             <version>1.6.0</version>
         </dependency>
+
+
         <dependency>
-            <groupId>org.apache.spark</groupId>
-            <artifactId>spark-sql_2.11</artifactId>
-            <version>2.2.0</version>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
         </dependency>
-
-
 
         <dependency>
             <groupId>com.typesafe</groupId>
